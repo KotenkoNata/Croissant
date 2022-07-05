@@ -8,3 +8,29 @@ body{
   font-size: 18px;
   line-height: 30px;
 }
+
+.hero-container{
+  background-image: url("./img/hero.png");
+  height: 265px;
+  padding: 47px 0;
+}
+
+.hero-title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 98px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.hero-text{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
