@@ -13,6 +13,7 @@ body{
   background-image: url("./img/hero.png");
   height: 265px;
   padding: 47px 0;
+  margin-bottom: 100px;
 }
 
 .hero-title{
@@ -33,4 +34,25 @@ body{
   text-align: center;
 
   color: #FFFFFF;
+}
+
+.image-desc{
+  display: inline-block;
+  width: 50%;
+}
+
+@media (max-width: 900px) {
+  .hero-title{
+    font-size: 44px;
+    line-height: 70px;
+  }
+
+  .hero-text{
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .hero-container{
+    margin-bottom: 50px;
+  }
 }
