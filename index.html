@@ -4,18 +4,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home | page</title>
+
   <script src="https://kit.fontawesome.com/9bab15b9ff.js" crossorigin="anonymous"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link rel="stylesheet" href="./src/styles.css">
+
 
   <!-- CSS only -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/styles.css">
 
 </head>
 <body>
 <main>
+
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <div class="container nav-container">
+      <a class="navbar-brand" href="#">
+        <img src="src/img/logo.svg">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav nav-list">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#">Recipe</a>
+          <a class="nav-link" href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
   <div class="hero-container">
   <h1 class="hero-title">Recipe Collection</h1>
   <p class="hero-text">Find a variety of inspiring recipes that are easy, <br> delicious, and healthy here</p>
@@ -64,6 +88,35 @@
     </div>
 
   </div>
+  <footer>
+    <div class="container footer-container">
+      <div class="inner-footer-container">
+      <a class="navbar-brand" href="#">
+        <img src="src/img/logo.svg">
+      </a>
+
+      <ul class="social-list">
+        <li>
+          <a href="#">
+            <img src="src/img/Facebook.svg">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="src/img/insta.svg">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="src/img/linkedIn.svg">
+          </a>
+        </li>
+      </ul>
+
+      <p>© 2021 SheCodes All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
 </main>
 </body>
 </html>

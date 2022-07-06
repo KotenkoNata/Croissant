@@ -10,10 +10,11 @@ body{
 }
 
 .hero-container{
-  background-image: url("./img/hero.png");
+  background: url("./img/hero.png") no-repeat center;
   height: 265px;
   padding: 47px 0;
   margin-bottom: 100px;
+  margin-top: 135px;
 }
 
 .hero-title{
@@ -41,6 +42,45 @@ body{
   width: 50%;
 }
 
+
+
+.nav-container{
+  padding: 48px 62px;
+}
+
+.nav-list{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.footer-container{
+  background-color: #F9F7FE;
+  padding: 38px 20px;
+}
+
+.social-list{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-list li{
+  margin-right: 30px;
+}
+
+.social-list li:nth-child(3n){
+  margin-right: 0;
+}
+
+.inner-footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @media (max-width: 900px) {
   .hero-title{
     font-size: 44px;
@@ -54,5 +94,15 @@ body{
 
   .hero-container{
     margin-bottom: 50px;
+  }
+
+  .inner-footer-container{
+    display: block;
+    text-align: center;
+  }
+
+  .social-list{
+    padding: 0;
+    margin: 20px 0;
   }
 }
