@@ -145,7 +145,7 @@ body{
   margin-bottom: 52px;
 }
 
-.about-social-list, .about-recipe-list{
+ul{
   list-style: none;
 
   margin: 0;
@@ -199,4 +199,44 @@ body{
   .about-recipe-list li{
     text-align: center;
   }
+}
+
+
+.recipe-title{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+
+  text-align: left;
+}
+
+.recipe-list-title{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.stylish-border{
+  border-bottom: 1px dashed #67D5D2
+}
+
+.recipe-step{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  color: #F65282;
+}
+
+.recipe-text-description{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.recipe-item-margin{
+  margin-bottom: 100px;
 }
