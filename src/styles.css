@@ -106,3 +106,86 @@ body{
     margin: 20px 0;
   }
 }
+
+.navbar-about{
+height: 100px;
+}
+
+.about-title{
+  text-align: center;
+  margin-top: 150px;
+
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 98px;
+
+  margin-bottom: 126px;
+}
+
+.title-name{
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+
+  font-size: 64px;
+  line-height: 87px;
+
+  margin-bottom: 36px;
+}
+
+.about-me-description{
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  margin-bottom: 52px;
+}
+
+.about-social-list, .about-recipe-list{
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.about-recipe-list{
+  margin-bottom: 100px;
+}
+
+.list-title{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+
+}
+
+.about-recipe-title{
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+
+  margin-top: 100px;
+  margin-bottom: 41px;
+}
+
+.about-recipe-item-title{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.about-recipe-item-text{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
