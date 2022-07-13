@@ -105,15 +105,15 @@ body{
     padding: 0;
     margin: 20px 0;
   }
+
+
 }
 
-.navbar-about{
-height: 100px;
-}
+
 
 .about-title{
   text-align: center;
-  margin-top: 150px;
+  margin-top: 170px;
 
   font-family: 'Nunito', sans-serif;
   font-style: normal;
@@ -188,4 +188,15 @@ height: 100px;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
+}
+
+@media (max-width: 900px) {
+  .about-title{
+    margin-top: 250px;
+    margin-bottom: 70px;
+  }
+
+  .about-recipe-list li{
+    text-align: center;
+  }
 }
