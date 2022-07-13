@@ -240,3 +240,28 @@ ul{
 .recipe-item-margin{
   margin-bottom: 100px;
 }
+
+.contact-title{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #662EED;
+}
+
+.contact-link{
+  text-decoration: none;
+  outline: none;
+
+  color: #272142;
+
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.contact-container{
+  margin-bottom: 100px;
+}
